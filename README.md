@@ -1,5 +1,5 @@
 # Project-Thematic-Investments
-Predicting stock themes with high potential based on news data
+Using Python and NLP, predicting stock themes with high potential based on news data
 
 ## Summary
 * Used news data from 'Naver'
