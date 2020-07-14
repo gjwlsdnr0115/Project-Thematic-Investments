@@ -15,4 +15,4 @@ Using Python and NLP, predicting stock themes with high potential based on news 
 
 ### Hypothesis
 1. Individual investers are limited in obtaining information and therfore, rely on the news for such information. As a result, stock themes and the news have a strong correlation.
-2. When an event occurs in the news about a particular stock theme, a certain amount of time must pass by for a noticable change to happen regarding the stock theme's price.
+2. When an event occurs in the news regarding a particular stock theme, some time must pass by for a noticable change to happen for that stock theme's price.
