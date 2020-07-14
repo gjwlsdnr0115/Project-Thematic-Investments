@@ -1,4 +1,4 @@
-# Project-Thematic-Invest
+# Project-Thematic-Investments
 Predicting stock themes with high potential based on news data
 
 ## Summary
@@ -9,5 +9,10 @@ Predicting stock themes with high potential based on news data
 * Use cosine-similarity to predict theme
 
 ## 1. Background
+### What is thematic investing?
+* Thematic investing is a form of investment which aims to identify macro-level trends, and the underlying investments that stand to benefit from the materialisation of those trends
+* A stock theme is a particular group of stocks that share a similar trend or trait
 
+### Hypothesis
+1. Individual investers are limited in obtaining information. 
 
