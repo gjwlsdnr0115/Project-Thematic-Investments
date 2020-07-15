@@ -3,9 +3,9 @@ Using Python and NLP, predicting stock themes with high potential based on news 
 
 ## Summary
 * Used news data from 'Naver'
-* Finialized 168 meaningful stock themes mentioned in everyday news over the last year
+* Gathered meaningful stock themes mentioned in everyday news over the last year
 * Gathered 200 news data for each stock theme
-* Train word2vec model
+* Trained with word2vec model
 * Used cosine-similarity to predict theme
 
 ## 1. Background
@@ -16,3 +16,8 @@ Using Python and NLP, predicting stock themes with high potential based on news 
 ### Hypothesis
 1. Individual investers are limited in obtaining information and therfore, rely on the news for such information. As a result, stock themes and the news have a strong correlation.
 2. When an event occurs in the news regarding a particular stock theme, some time must pass by for a noticable change to happen for that stock theme's price.
+
+## 2. Data crawling
+Crawling Naver news data using Beautifulsoup
+
+1. **Stock themes:** Searched stock themes that were frequently mentioned in the news. Removed themes that were fewly referenced or were too specific in its meaning to be useful
