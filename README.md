@@ -20,9 +20,10 @@ Using Python and NLP, predicting stock themes with high potential based on news 
 ## 2. Data preprocessing
 Crawling Naver news data using Beautifulsoup
 
-1. **Stock themes:** Searched stock themes that were frequently mentioned in the news. Removed themes that were fewly referenced or were too specific in its meaning to be useful. A total of 168 themes were finalized.
+1. **Stock themes:** Searched stock themes that were frequently mentioned in the news. Removed themes that were fewly referenced or were too specific in its meaning to be useful. A total of 168 themes were finalized. Each theme consists a list of corporations belonging to that theme.
 2. **News data:** 200 news data were crawled for each of the 168 themes. Unusable data(photo news, video news) were manually removed from the dataset.
 
 ## 3. Model training
 
 **KoBERT tokenizer + Word2Vec**
+
