@@ -35,7 +35,7 @@ Crawling Naver news data using Beautifulsoup
 **Model parameters:**\
 vector dimension = 300, window = 8
 
-**Model**
+**Model** [(Architecture.ipynb)](./Model/Architecture.ipynb)
 - Added all word vectors in a news data to make a news representation
 - Generated each theme representations by adding all 200 news representations
 - Normalization was not necessary since more information leads to accurate representations
