@@ -26,7 +26,8 @@ Crawling Naver news data using Beautifulsoup
 
 ## 3. Model training
 
-**KoBERT tokenizer + Word2Vec + cosine-similarity**
+**KoBERT tokenizer + Word2Vec + cosine-similarity**\
+[Model train file](./Model/wv_model_train.ipynb)
 
 **KoBERT tokenizer:** Developed by SKTBrain\
 **Word2Vec:** Represents words in vectors
@@ -47,7 +48,7 @@ vector dimension = 300, window = 8
 - The model finds a similar theme for each news data and counts the number of its appearance. However, it only counts when the similarity is higher than 95%.
 - When all of the input data is processed, the model generates a list of themes, whose count is less than 5(hypothesis 3).
 
-**Market**
+**Market testing**
 - Select one corporation for each theme, whose fluctuation is less than 5% and has the highest market capitalization.
 - Calculate profit with the following rules.
   - Sell when a stock's price increases more than 10%
