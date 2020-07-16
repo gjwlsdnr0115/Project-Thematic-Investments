@@ -40,10 +40,22 @@ vector dimension = 300, window = 8
 - Normalization was not necessary since more information leads to accurate representations
 - When a news data is given as input, the model will vectorize the data and use cosine-similarity to determine and return the most similar theme
 
-## Testing
+## 4. Testing
 **Model**
 - **Input:** Today news(approximately 2000 data each for IT, economy, society, lifestyle, international, politics)
 - **Output:** A list of themes and its subordinate corporations that are considered to have high potential
 - The model finds a similar theme for each news data and counts the number of its appearance. However, it only counts when the similarity is higher than 95%.
 - When all of the input data is processed, the model generates a list of themes, whose count is less than 5(hypothesis 3).
 
+**Market**
+- Select one corporation for each theme, whose fluctuation is less than 5% and has the highest market capitalization.
+- Calculate profit with the following rules.
+  - Sell when a stock's price increases more than 10%
+  - Sell when a stock's price decreases more than 5%
+  - If neither of above, sell after 5 days of purchase
+  
+**Result**
+
+
+7/1 news data
+- profit after 5 days = 2.23%
