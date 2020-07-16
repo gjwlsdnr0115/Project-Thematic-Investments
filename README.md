@@ -60,4 +60,4 @@ vector dimension = 300, window = 8
 
 7/1 news data
 - profit after 5 days = 2.23%
-
+- <img src="images/result.png" width="50%" height="50%">
