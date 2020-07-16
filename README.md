@@ -27,3 +27,9 @@ Crawling Naver news data using Beautifulsoup
 
 **KoBERT tokenizer + Word2Vec**
 
+**KoBERT tokenizer:** Developed by SKTBrain\
+**Word2Vec:** Represents words in vectors
+
+**Model parameters:**\
+vector dimension = 300, window = 8
+
