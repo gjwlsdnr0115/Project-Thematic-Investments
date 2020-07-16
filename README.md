@@ -27,7 +27,7 @@ Crawling Naver news data using Beautifulsoup
 ## 3. Model training
 
 **KoBERT tokenizer + Word2Vec + cosine-similarity**\
-[Model train file](./Model/wv_model_train.ipynb)
+[Model train file(wv_model_train.ipynb)](./Model/wv_model_train.ipynb)
 
 **KoBERT tokenizer:** Developed by SKTBrain\
 **Word2Vec:** Represents words in vectors
